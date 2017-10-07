@@ -1,0 +1,10 @@
+correct_number = 13
+print ("I'm thinking of a number between 1 and 20. Guess it!")
+guess_number = int(input())
+while guess_number != correct_number:
+    if guess_number < correct_number:
+        print ("Too low. Try again!")
+    else:
+        print("Too high. Try again!")
+     guess_number = int(input())
+    print ("You got it! Congratulations!")
